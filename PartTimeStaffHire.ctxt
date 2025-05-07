@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PartTimeStaffHire
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ PartTimeStaffHire.\r\n\r\n\r\n\ \ ------------------------------------------------------------------------\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Type\ of\ the\ variable\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ |\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n------------------------------------------------------------------------\r\n\ workingHour\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ |\ a\ whole\ number\u00A0\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ |\r\n\ wagesPerHour\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ |\ a\ double\ number\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ |\r\n\ shifts\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ |\ string\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ |\r\n\ terminated\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ |\ Boolean\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ |\r\n\ ------------------------------------------------------------------------\r\n\ \r\n\ The\ constructor\ accepts\ 11\ parameters,\ which\ are\ the\ vacancyNumber,\ designation,\ jobType,\ staffName,\ joiningDate,\ qualification,\ appointedBy\ and\ joined,\ working\ hours\ (hours\ per\ day),\ \r\n\ wages\ per\ hour,\ and\ shifts\ (morning,\ day\ or\ evening\ working\ shifts).\ A\ call\ is\ made\ to\ the\ superclass\ constructor\ with\ 8\ parameters,\ the\ vacancyNumber,\ designation,\ jobType,\ staffName,\ \r\n\ joiningDate,\ qualification,\ appointedBy\ and\ joined.\ \r\n\ The\ working\ hours,\ wages\ per\ hour\ and\ shifts\ attributes\ are\ assigned\ the\ corresponding\ parameter\ values.\ Additionally,\ in\ the\ constructor,\ assign\ terminated\ status\ is\ assigned\ to\ false.\ \r\n\ \r\n\ @author\ aavash\r\n\ @version\ vol.1.18.02.2025\r\n
+comment1.params=vacancyNumber\ designation\ jobType\ staffName\ joiningDate\ qualification\ appointedBy\ joined\ workingHour\ wagesPerHour\ shifts
+comment1.target=PartTimeStaffHire(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ boolean,\ int,\ double,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getWorkingHour()
+comment3.params=
+comment3.target=double\ getWagesPerHour()
+comment4.params=
+comment4.target=java.lang.String\ getShifts()
+comment5.params=
+comment5.target=boolean\ isTerminated()
+comment6.params=shifts
+comment6.target=void\ setShifts(java.lang.String)
+comment7.params=
+comment7.target=void\ terminate()
+comment8.params=
+comment8.target=void\ display()
+comment9.params=
+comment9.target=java.lang.String\ getDetailsAsString()
+numComments=10
